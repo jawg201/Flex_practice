@@ -1,0 +1,73 @@
+body, div {
+    padding:0px;
+    margin:0 px;
+    font-family: "Arial";
+    font-size:12pt;
+    color:#1A1A1A;
+    background:#CCC;
+}
+
+div {
+    background:#FFF;
+    box-shadow: 1px 1px 3px black;
+    padding:6px;
+}
+
+@media(min-width:768px) {
+.flexbox {
+    display:flex;
+    padding:0px;
+}
+}
+.flexbox.one {
+    background:rgb(107, 99, 107);
+    align-items: flex-end;
+    flex-direction:row;
+    border-bottom:solid 20px #1A1A1A;
+    padding-top:8px;
+}
+
+.flexbox.two {
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+
+.flexbox.two div {
+    background:#FFF;
+    flex-basis:30%;
+    margin-top:4px;
+    box-shadow:none;
+    border-bottom:solid 0.5px #ecebeb;
+}
+
+.header {
+
+
+}
+
+
+.box-1 {
+    flex: 1 1 200px;
+    order:;
+}
+
+.box-2 {
+    flex: 2 1 400px;
+    order:;
+    z-index:99;
+
+}
+
+.box-2 div {
+
+}
+
+.box-3 {
+    flex: 1 1 200px;
+
+}
+
+
+footer {
+
+}
